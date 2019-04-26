@@ -2,9 +2,13 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 }
-header img{
+header a{
 	height: 25px;
-	margin-left: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+header img {
+	height: 25px;
 }
 header{
 	background-color: white;
@@ -41,7 +45,7 @@ header li a{
 	text-align: center;
 	color: white;
 	/* Background styles */
-	background-image: url(adorable-blur-child-573293.jpg);
+	background-image: url(images/adorable-blur-child-573293.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -120,11 +124,6 @@ main p{
 
 }
 
-.button-footer{
-	height: 40px;
-	padding: 12px;
-}
-
 footer{
 	height: 20vh;
 	background-color: #131b3d;
@@ -142,9 +141,15 @@ footer{
 	font-weight: 100;
 	color: #b2b1b1;
 	letter-spacing:5px
+
 }
+footer a { display: block; width: 100%; float: left;margin: 0 5px 0 5px; width:40px; }
 
 @media screen and (min-width: 600px) {
   #container {
     flex-direction: row;}
+   .color_pick img { width: 100%; max-width: 503px; height: auto; }
+}
+
+
 
